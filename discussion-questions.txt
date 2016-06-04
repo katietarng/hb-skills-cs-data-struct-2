@@ -1,0 +1,39 @@
+Recursion
+1. Recursion happens when a function calls itself. 
+2. If there is no base case, the function will run infinitely because it does not know when to stop. 
+
+Graphs
+1. A graph is a data structure that has nodes connected by edges and loops that can be non-directional. 
+2. A tree has nodes that can only have one parent due to its hierarchal structure whereas a graph has nodes that can be connected to multiple nodes because they have no hierarchy. Trees are also directed. 
+3. An example of a graph would be LinkedIn's People You May Know page.
+
+Performance of Different Data Structures
+
+Data Structure  Index   Search  Add-R   Add-L   Pop-L   Pop-R
+Python List     O(1)    O(n)    O(1)     O(n)    O(n)    O(1)
+Linked List     O(n)    O(n)    O(1)     O(1)    O(1)    O(n)
+DLL             O(n)    O(n)    O(1)     O(1)    O(1)    O(1)
+Queue(as Array)  X        X     O(1)      X      O(n)     X
+Queue(as LL,DLL) X        X     O(1)      X      O(1)     X
+Stack            X        X     O(1)      X       X      O(1)  
+Deque (as DLL)   X        X     O(1)     O(1)    O(1)    O(1)
+
+Data Structure      Get    Add     Delete   Iterate  Memory
+Dictionary          O(1)   O(1)    O(1)      O(n)    medium
+Set (Hash Map)      O(1)   O(1)    O(1)      O(n)    medium
+Binary Search Tree  O(logn) O(n)   O(n)      O(1)    low
+Tree                O(n)   O(1)    O(1)      O(1)    low
+
+Sorting
+1. Bubble sort is when we look at one number at a time and sort it to the right of the list if the number after it is smaller. The process repeats itself until all the numbers in the list have been sorted. 
+2. Merge sort is when you split an unsorted list in half and sort the items in the two lists and then merge them back together by comparing if the item at index 0 in first list is larger than the item at index 0 in the second list. 
+3. Quick sort chooses a pivot at random and sets a pivot divider based on whether or not the numbers in the list are higher or lower than the pivot. Once it has iterated through all the items, except the pivot, it places the pivot item at the position of the pivot divider. 
+
+Git Branching 
+1. You could git branch when you want to fix a bug, separate from the main branch, which allows you to maintain a working branch in case your fix introduces even more bugs. 
+2. A pull request is when you make a branch from the main project, write the code that you need to on this branch, and push it to Github for the project owner to review. The project owner can then ask questions or merge the branch. 
+
+
+
+
+
